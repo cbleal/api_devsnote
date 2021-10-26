@@ -1,5 +1,7 @@
 <?php
 
+# update /api/update - put (id, title, body)
+
 require '../config.php';
 
 $method = strtolower($_SERVER['REQUEST_METHOD']);

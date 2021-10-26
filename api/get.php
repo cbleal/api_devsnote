@@ -1,5 +1,7 @@
 <?php
 
+# get /api/get - get (id)
+
 require '../config.php';
 
 $method = strtolower($_SERVER['REQUEST_METHOD']);
